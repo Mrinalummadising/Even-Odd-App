@@ -1,0 +1,47 @@
+.container-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 600px;
+  border-radius: 15px;
+}
+
+.description {
+  font-size: 25px;
+  color: #334155;
+  font-style: bold;
+  font-weight: 500;
+}
+
+.button {
+  border-color: 2px solid #1e293b;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 6px;
+  outline: medium;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #1e293b;
+}
+
+.random-num {
+  color: #1e293b;
+  font-size: 20px;
+}
